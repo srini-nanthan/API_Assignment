@@ -4,7 +4,7 @@ Steps to run
 
 ## Endpoints
 
-**REGISTER API** 
+**REGISTER API** -
 Creates a new user account using an email and password
 
 curl --location 'http://localhost:8080/register' \
@@ -13,7 +13,7 @@ curl --location 'http://localhost:8080/register' \
 
 -------------------------------------------------------------------
 
-**LOGIN API** 
+**LOGIN API** -
 Authenticates a user's credentials and, if valid, returns an access token (JWT) and a refresh token for secure session management
 
 curl --location 'http://localhost:8080/login' \
@@ -22,7 +22,7 @@ curl --location 'http://localhost:8080/login' \
 
 -------------------------------------------------------------------
 
-**PROTECTED API**
+**PROTECTED API** -
 Protected API is a secure endpoint that only allows access if you have a valid token, blocking anyone without proper authorization
 
 curl --location 'http://localhost:8080/protected' \
@@ -30,7 +30,7 @@ curl --location 'http://localhost:8080/protected' \
 
 -------------------------------------------------------------------
 
-**REVOKE API** 
+**REVOKE API** -
 Revokes the specified token, making it invalid for future requests
 
 curl --location --request POST 'http://localhost:8080/revoke' \
