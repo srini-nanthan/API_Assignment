@@ -6,11 +6,11 @@ Steps to run
 
 **REGISTER API** -
 Creates a new user account using an email and password
-
+```bash
 curl --location 'http://localhost:8080/register' \
 --header 'Content-Type: application/json' \
 --data-raw '{"email":"sample@gmail.com", "password":"Admin@123"}'
-
+```
 -------------------------------------------------------------------
 
 **LOGIN API** -
