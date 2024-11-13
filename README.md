@@ -1,6 +1,6 @@
 Steps to run
 
-1. Docker-compose up
+1. docker-compose up
 
 Endpoints
 
